@@ -21,5 +21,25 @@ namespace FormsAdventure2
         {
             GameController.ShowSubform(new Location2());
         }
+
+        private void Location1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
