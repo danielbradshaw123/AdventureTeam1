@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Mr Branton responds by saying:
+"You're welcome Sam. You were always my favourite student.
+Sam decides that it is time to get going, and that he should try to find Zack, who must be around here somewhere.THE GYM seems like a reasonable spot to find him.</value>
+  </data>
 </root>
