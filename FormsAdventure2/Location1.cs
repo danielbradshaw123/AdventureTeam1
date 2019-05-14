@@ -39,10 +39,22 @@ namespace FormsAdventure2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form Location2 = new Location2();
+            this.Close();
+            Location2.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
         {
 
         }

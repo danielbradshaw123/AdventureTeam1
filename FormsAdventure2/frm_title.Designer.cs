@@ -28,20 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.pbx_title = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbx_title)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(423, 609);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 46);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Title Screen";
             // 
             // pbx_title
             // 
@@ -52,6 +42,16 @@
             this.pbx_title.TabIndex = 1;
             this.pbx_title.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(428, 527);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(258, 85);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Start";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frm_title
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -59,19 +59,17 @@
             this.BackgroundImage = global::FormsAdventure2.Properties.Resources.dragon1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1071, 694);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pbx_title);
-            this.Controls.Add(this.label1);
             this.Name = "frm_title";
             this.Text = "frm_title";
             ((System.ComponentModel.ISupportInitialize)(this.pbx_title)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pbx_title;
+        private System.Windows.Forms.Button button1;
     }
 }
