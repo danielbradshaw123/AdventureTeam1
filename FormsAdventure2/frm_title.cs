@@ -19,9 +19,9 @@ namespace FormsAdventure2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form Location1 = new Location1();
+            Form Room22 = new Location1();
             this.Close();
-            Location1.Show();
+            Room22.Show();
         }
     }
 }
