@@ -67,6 +67,12 @@
     <Compile Include="Location1.Designer.cs">
       <DependentUpon>Location1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Location3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location3.Designer.cs">
+      <DependentUpon>Location3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Location2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Location1.resx">
       <DependentUpon>Location1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location3.resx">
+      <DependentUpon>Location3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location2.resx">
       <DependentUpon>Location2.cs</DependentUpon>
@@ -118,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\title_anim.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="locations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
