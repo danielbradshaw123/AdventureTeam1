@@ -117,4 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Sam travels to the gym, where he attempts to find Zack. He goes to enter, however the sliding door is locked.
+Sam: "Darn it. If I want to find Zack I need to get the key."
+He looks to his right, where the entrance to the staff room lies. Can he get to the gym through there?
+Cautiously, he opens the creaking door. The room is empty and silent. Something seems off.
+</value>
+  </data>
 </root>
