@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormsAdventure2
 {
-    public partial class frm_main : Form
+    public partial class Location4 : Form
     {
-        public frm_main()
+        public Location4()
         {
             InitializeComponent();
         }
@@ -30,6 +30,16 @@ namespace FormsAdventure2
         }
 
         private void pnl_main_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnl_main_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
