@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>BBRRRRRRRING!! 
-The school bell rings, awakening Sam from his daydream, the only thing that allows him to survive the thirty minute torture that is detention. He desperately waits to be dismissed by the teacher, Mr Branton.
-“That’s the bell sam, time to pack up and go home.”
-Sam thankfully gets up to leave, but first must choose how to respond to Mr Branton.
-</value>
+    <value>Sam: The Heck!? Dat Boi? I should probably be careful, there may be more dangers around.
+Sam then searches around the room, choosing to search either the cupboards or the kitchen drawers.
+If the player chooses to go search the kitchen drawers they come across Mr Lada.
+Mr Lada: Samuel! Did I ever tell you how the Malaysians were involved in the Second World War?
+ Well you see……..”</value>
   </data>
 </root>
