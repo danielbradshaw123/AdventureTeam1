@@ -85,9 +85,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 17);
+            this.label1.Size = new System.Drawing.Size(103, 17);
             this.label1.TabIndex = 14;
-            this.label1.Text = "Staff Room- ";
+            this.label1.Text = "Staff Room -  4";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Location4
