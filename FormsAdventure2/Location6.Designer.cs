@@ -49,8 +49,8 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1482, 215);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Sam:\r\nI’m gonna die of boredom! I’m running out of time, I gotta find a way to es" +
-    "cape.";
+            this.textBox1.Text = "Sam:\r\nI’m gonna diee of boredom! I’m running out of time, I gotta find a way to e" +
+    "scape.";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1

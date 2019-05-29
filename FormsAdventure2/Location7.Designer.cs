@@ -47,8 +47,8 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1482, 215);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "“Oh that\'s ok, I hope you have a great night and remember to study before the exa" +
-    "m.”\r\n";
+            this.textBox1.Text = "“Ohh that\'s ok, I hope you have a great night and remember to study before the ex" +
+    "am.”\r\n";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
