@@ -5,6 +5,55 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsAdventure2", "FormsAdventure2\FormsAdventure2.csproj", "{3AB635C1-B5CD-47FB-AAA4-811294A1F86C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scene 1 - Detention Room  - Introduction", "Scene 1 - Detention Room  - Introduction", "{F3DC8F94-E683-4021-8EA0-64841482EBEE}"
+	ProjectSection(SolutionItems) = preProject
+		FormsAdventure2\Location1.cs = FormsAdventure2\Location1.cs
+		FormsAdventure2\Location1.Designer.cs = FormsAdventure2\Location1.Designer.cs
+		FormsAdventure2\Location1.resx = FormsAdventure2\Location1.resx
+		FormsAdventure2\Location10.cs = FormsAdventure2\Location10.cs
+		FormsAdventure2\Location10.Designer.cs = FormsAdventure2\Location10.Designer.cs
+		FormsAdventure2\Location10.resx = FormsAdventure2\Location10.resx
+		FormsAdventure2\Location11.cs = FormsAdventure2\Location11.cs
+		FormsAdventure2\Location11.Designer.cs = FormsAdventure2\Location11.Designer.cs
+		FormsAdventure2\Location11.resx = FormsAdventure2\Location11.resx
+		FormsAdventure2\Location12.cs = FormsAdventure2\Location12.cs
+		FormsAdventure2\Location12.Designer.cs = FormsAdventure2\Location12.Designer.cs
+		FormsAdventure2\Location12.resx = FormsAdventure2\Location12.resx
+		FormsAdventure2\Location2.cs = FormsAdventure2\Location2.cs
+		FormsAdventure2\Location2.Designer.cs = FormsAdventure2\Location2.Designer.cs
+		FormsAdventure2\Location2.resx = FormsAdventure2\Location2.resx
+		FormsAdventure2\Location3.cs = FormsAdventure2\Location3.cs
+		FormsAdventure2\Location3.Designer.cs = FormsAdventure2\Location3.Designer.cs
+		FormsAdventure2\Location3.resx = FormsAdventure2\Location3.resx
+		FormsAdventure2\Location4.cs = FormsAdventure2\Location4.cs
+		FormsAdventure2\Location4.Designer.cs = FormsAdventure2\Location4.Designer.cs
+		FormsAdventure2\Location4.resx = FormsAdventure2\Location4.resx
+		FormsAdventure2\Location5.cs = FormsAdventure2\Location5.cs
+		FormsAdventure2\Location5.Designer.cs = FormsAdventure2\Location5.Designer.cs
+		FormsAdventure2\Location5.resx = FormsAdventure2\Location5.resx
+		FormsAdventure2\Location6.cs = FormsAdventure2\Location6.cs
+		FormsAdventure2\Location6.Designer.cs = FormsAdventure2\Location6.Designer.cs
+		FormsAdventure2\Location6.resx = FormsAdventure2\Location6.resx
+		FormsAdventure2\Location7.cs = FormsAdventure2\Location7.cs
+		FormsAdventure2\Location7.Designer.cs = FormsAdventure2\Location7.Designer.cs
+		FormsAdventure2\Location7.resx = FormsAdventure2\Location7.resx
+		FormsAdventure2\Location8.cs = FormsAdventure2\Location8.cs
+		FormsAdventure2\Location8.Designer.cs = FormsAdventure2\Location8.Designer.cs
+		FormsAdventure2\Location8.resx = FormsAdventure2\Location8.resx
+		FormsAdventure2\Location9.cs = FormsAdventure2\Location9.cs
+		FormsAdventure2\Location9.Designer.cs = FormsAdventure2\Location9.Designer.cs
+		FormsAdventure2\Location9.resx = FormsAdventure2\Location9.resx
+		FormsAdventure2\Program.cs = FormsAdventure2\Program.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scene 2 - Gym -Zack's Introduction", "Scene 2 - Gym -Zack's Introduction", "{C41CE49F-9F08-4A47-A229-4D8C2B44402E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scene 3 - IT room - Will's Introduction", "Scene 3 - IT room - Will's Introduction", "{91A8A631-4181-40BE-906C-DF51E1341B98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scene 4 - Art Room - Alec's Introduction", "Scene 4 - Art Room - Alec's Introduction", "{7DE7BF90-59CF-4A25-A62E-DE41EA9A8BA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scene 5 - Detention Room - Boss Battle", "Scene 5 - Detention Room - Boss Battle", "{B930F2EB-C145-4126-91F2-40771275E480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
