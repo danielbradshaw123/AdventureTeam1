@@ -41,12 +41,11 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.Location = new System.Drawing.Point(1, 630);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox1.Location = new System.Drawing.Point(1, 449);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1667, 249);
+            this.textBox1.Size = new System.Drawing.Size(1482, 255);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Once inside of the gym, Sam meets up with Zack, who is distracted by a life-size " +
     "grumpy cat\r\nSam:\r\n“Zack c’mon man we gotta go find the others!”\r\nZack:\r\n“Yeah ju" +
@@ -56,9 +55,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 11);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.Size = new System.Drawing.Size(122, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gym - Tenth Slide";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -68,10 +67,10 @@
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1, 875);
+            this.button3.Location = new System.Drawing.Point(1, 700);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(1667, 186);
+            this.button3.Size = new System.Drawing.Size(1482, 149);
             this.button3.TabIndex = 4;
             this.button3.Text = "Next\r\n";
             this.button3.UseVisualStyleBackColor = false;
@@ -87,18 +86,18 @@
             "Text",
             "Button options",
             "Characters"});
-            this.checkedListBox1.Location = new System.Drawing.Point(1217, 174);
-            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkedListBox1.Location = new System.Drawing.Point(1082, 139);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(237, 130);
+            this.checkedListBox1.Size = new System.Drawing.Size(211, 89);
             this.checkedListBox1.TabIndex = 7;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // Location10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1667, 1050);
+            this.ClientSize = new System.Drawing.Size(1482, 840);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
