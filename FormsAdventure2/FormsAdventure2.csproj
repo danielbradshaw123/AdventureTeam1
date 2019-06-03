@@ -47,11 +47,84 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Character.cs" />
-    <Compile Include="frm_main.cs">
+    <Compile Include="Location 13.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_main.Designer.cs">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <Compile Include="Location 13.Designer.cs">
+      <DependentUpon>Location 13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location10 - Zack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location10 - Zack.Designer.cs">
+      <DependentUpon>Location10 - Zack.cs</DependentUpon>
+    </Compile>
+    <Compile Include=".cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location12  - To Be worked On.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location12  - To Be worked On.Designer.cs">
+      <DependentUpon>Location12  - To Be worked On.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location 14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location 14.Designer.cs">
+      <DependentUpon>Location 14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location 15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location 15.Designer.cs">
+      <DependentUpon>Location 15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location16.Designer.cs">
+      <DependentUpon>Location16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location9.Designer.cs">
+      <DependentUpon>Location9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location8.Designer.cs">
+      <DependentUpon>Location8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location7.Designer.cs">
+      <DependentUpon>Location7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location6.Designer.cs">
+      <DependentUpon>Location6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location5.Designer.cs">
+      <DependentUpon>Location5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location4.Designer.cs">
+      <DependentUpon>Location4.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_title.cs">
       <SubType>Form</SubType>
@@ -67,6 +140,12 @@
     <Compile Include="Location1.Designer.cs">
       <DependentUpon>Location1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Location3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location3.Designer.cs">
+      <DependentUpon>Location3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Location2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,14 +154,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_main.resx">
-      <DependentUpon>frm_main.cs</DependentUpon>
+    <EmbeddedResource Include="Location 13.resx">
+      <DependentUpon>Location 13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location10 - Zack.resx">
+      <DependentUpon>Location10 - Zack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location12  - To Be worked On.resx">
+      <DependentUpon>Location12  - To Be worked On.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location 14.resx">
+      <DependentUpon>Location 14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location 15.resx">
+      <DependentUpon>Location 15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location16.resx">
+      <DependentUpon>Location16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location9.resx">
+      <DependentUpon>Location9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location8.resx">
+      <DependentUpon>Location8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location7.resx">
+      <DependentUpon>Location7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location6.resx">
+      <DependentUpon>Location6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location5.resx">
+      <DependentUpon>Location5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location4.resx">
+      <DependentUpon>Location4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_title.resx">
       <DependentUpon>frm_title.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location1.resx">
       <DependentUpon>Location1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location3.resx">
+      <DependentUpon>Location3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location2.resx">
       <DependentUpon>Location2.cs</DependentUpon>
@@ -118,6 +236,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\title_anim.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="locations\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

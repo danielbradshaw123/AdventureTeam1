@@ -17,29 +17,11 @@ namespace FormsAdventure2
             InitializeComponent();
         }
 
-        private void pbx_title_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
+            Form Location1 = new Location1();
+            this.Close();
+            Location1.Show();
         }
     }
 }
