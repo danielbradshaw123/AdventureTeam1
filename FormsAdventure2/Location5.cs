@@ -46,5 +46,12 @@ namespace FormsAdventure2
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form Location6 = new Location6();
+            this.Close();
+            Location6.Show();
+        }
     }
 }
