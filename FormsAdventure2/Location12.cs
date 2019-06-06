@@ -24,7 +24,7 @@ namespace FormsAdventure2
 
         private void Location1_Load(object sender, EventArgs e)
         {
-
+            \
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

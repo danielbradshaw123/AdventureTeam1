@@ -53,11 +53,11 @@
     <Compile Include="Location 13.Designer.cs">
       <DependentUpon>Location 13.cs</DependentUpon>
     </Compile>
-    <Compile Include="Location10 - Zack.cs">
+    <Compile Include="Location10.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Location10 - Zack.Designer.cs">
-      <DependentUpon>Location10 - Zack.cs</DependentUpon>
+    <Compile Include="Location10.Designer.cs">
+      <DependentUpon>Location10.cs</DependentUpon>
     </Compile>
     <Compile Include=".cs">
       <SubType>Form</SubType>
@@ -66,11 +66,11 @@
       <DependentUpon>.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Location12  - To Be worked On.cs">
+    <Compile Include="Location12.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Location12  - To Be worked On.Designer.cs">
-      <DependentUpon>Location12  - To Be worked On.cs</DependentUpon>
+    <Compile Include="Location12.Designer.cs">
+      <DependentUpon>Location12.cs</DependentUpon>
     </Compile>
     <Compile Include="Location 14.cs">
       <SubType>Form</SubType>
@@ -152,19 +152,37 @@
     <Compile Include="Location2.Designer.cs">
       <DependentUpon>Location2.cs</DependentUpon>
     </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.Designer.cs">
+      <DependentUpon>Slide3 Scene3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.Designer.cs">
+      <DependentUpon>Slide2 Scene3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.Designer.cs">
+      <DependentUpon>Slide1 Scene3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Location 13.resx">
       <DependentUpon>Location 13.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Location10 - Zack.resx">
-      <DependentUpon>Location10 - Zack.cs</DependentUpon>
+    <EmbeddedResource Include="Location10.resx">
+      <DependentUpon>Location10.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include=".resx">
       <DependentUpon>.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Location12  - To Be worked On.resx">
-      <DependentUpon>Location12  - To Be worked On.cs</DependentUpon>
+    <EmbeddedResource Include="Location12.resx">
+      <DependentUpon>Location12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location 14.resx">
       <DependentUpon>Location 14.cs</DependentUpon>
@@ -205,6 +223,15 @@
     <EmbeddedResource Include="Location2.resx">
       <DependentUpon>Location2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.resx">
+      <DependentUpon>Slide3 Scene3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.resx">
+      <DependentUpon>Slide2 Scene3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.resx">
+      <DependentUpon>Slide1 Scene3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -238,7 +265,7 @@
     <None Include="Resources\title_anim.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="locations\" />
+    <Folder Include="locations\Scene 2 - Gym - Zack%27s Introduction\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

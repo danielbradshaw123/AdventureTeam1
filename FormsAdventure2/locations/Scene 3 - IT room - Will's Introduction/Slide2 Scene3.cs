@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormsAdventure2
+namespace FormsAdventure2.locations.Scene_3___IT_room___Will_s_Introduction
 {
-    public partial class Location_Template1 : Form
+    public partial class Location1Template2 : Form
     {
-        public Location_Template1()
+        public Location1Template2()
         {
             InitializeComponent();
         }
@@ -43,11 +43,6 @@ namespace FormsAdventure2
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
         {
 
         }
