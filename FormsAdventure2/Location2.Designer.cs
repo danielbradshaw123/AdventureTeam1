@@ -45,9 +45,10 @@
             "Text",
             "Button options",
             "Characters"});
-            this.checkedListBox1.Location = new System.Drawing.Point(1033, 129);
+            this.checkedListBox1.Location = new System.Drawing.Point(1162, 161);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(211, 106);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 130);
             this.checkedListBox1.TabIndex = 13;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -56,10 +57,10 @@
             this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(1, 701);
+            this.button1.Location = new System.Drawing.Point(1, 876);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1482, 153);
+            this.button1.Size = new System.Drawing.Size(1667, 191);
             this.button1.TabIndex = 11;
             this.button1.Text = "Travel to new location:\r\nTHE GYM";
             this.button1.UseVisualStyleBackColor = false;
@@ -70,13 +71,14 @@
             this.textBox1.AcceptsReturn = true;
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.Location = new System.Drawing.Point(1, 545);
+            this.textBox1.Location = new System.Drawing.Point(1, 608);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1482, 156);
+            this.textBox1.Size = new System.Drawing.Size(1667, 268);
             this.textBox1.TabIndex = 9;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -84,26 +86,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 6);
+            this.label1.Location = new System.Drawing.Point(14, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 34);
+            this.label1.Size = new System.Drawing.Size(255, 40);
             this.label1.TabIndex = 8;
             this.label1.Text = "Detention Room - Second Slide\r\nMr Branton Guaranteed Response";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Location2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1482, 860);
+            this.ClientSize = new System.Drawing.Size(1667, 1050);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Location2";
             this.Text = "Location2";
