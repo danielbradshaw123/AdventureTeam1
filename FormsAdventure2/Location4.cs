@@ -19,9 +19,6 @@ namespace FormsAdventure2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form title = new frm_title();
-            title.ShowDialog();
-            GameController.Start_game(this);
         }
 
         private void lbl_luck_Click(object sender, EventArgs e)
