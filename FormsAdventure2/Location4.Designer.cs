@@ -45,9 +45,10 @@
             "Text",
             "Button options",
             "Characters"});
-            this.checkedListBox1.Location = new System.Drawing.Point(1081, 142);
+            this.checkedListBox1.Location = new System.Drawing.Point(1216, 178);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(211, 94);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 109);
             this.checkedListBox1.TabIndex = 13;
             // 
             // button3
@@ -55,10 +56,10 @@
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(0, 707);
+            this.button3.Location = new System.Drawing.Point(0, 884);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(1482, 153);
+            this.button3.Size = new System.Drawing.Size(1667, 191);
             this.button3.TabIndex = 11;
             this.button3.Text = "FIGHT!!";
             this.button3.UseVisualStyleBackColor = false;
@@ -71,11 +72,12 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.Location = new System.Drawing.Point(0, 492);
+            this.textBox1.Location = new System.Drawing.Point(0, 615);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1482, 215);
+            this.textBox1.Size = new System.Drawing.Size(1667, 268);
             this.textBox1.TabIndex = 9;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -83,24 +85,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 17);
+            this.label1.Size = new System.Drawing.Size(117, 20);
             this.label1.TabIndex = 14;
             this.label1.Text = "Staff Room -  4";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Location4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(1482, 860);
+            this.ClientSize = new System.Drawing.Size(1667, 1050);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Location4";
             this.Text = "Awesome Adventure";
             this.Load += new System.EventHandler(this.Form1_Load);
