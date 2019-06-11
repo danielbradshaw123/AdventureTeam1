@@ -203,5 +203,26 @@
   <ItemGroup>
     <Folder Include="locations\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alec  - png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\will png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zack - png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sam - png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mr branton.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -23,5 +23,10 @@ namespace FormsAdventure2
             this.Close();
             Location1.Show();
         }
+
+        private void frm_title_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

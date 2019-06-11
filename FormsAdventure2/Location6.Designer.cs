@@ -116,7 +116,7 @@
             "Text",
             "Button options",
             "Characters"});
-            this.checkedListBox1.Location = new System.Drawing.Point(1082, 139);
+            this.checkedListBox1.Location = new System.Drawing.Point(1108, 119);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(211, 106);
             this.checkedListBox1.TabIndex = 7;
