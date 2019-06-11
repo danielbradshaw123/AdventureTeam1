@@ -22,7 +22,7 @@ namespace FormsAdventure2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Location4());
+            Application.Run(new Location1());
         }
     }
 }
