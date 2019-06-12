@@ -20,11 +20,11 @@ namespace FormsAdventure2
             main = f;
 
             // find the main panel to display subforms
-            Panel foundpanel = (Panel)main.Controls.Find("pnl_main", true).First();
+            /*Panel foundpanel = (Panel)main.Controls.Find("pnl_main", true).First();
             if (foundpanel != null)
             {
                 main_panel = foundpanel;
-            }
+            }*/
 
             // create the game character and update character panel on main form
             player = new Character();

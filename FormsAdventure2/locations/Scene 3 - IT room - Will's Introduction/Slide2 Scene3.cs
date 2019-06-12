@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormsAdventure2
+namespace FormsAdventure2.locations.Scene_3___IT_room___Will_s_Introduction
 {
-    public partial class Location12 : Form
+    public partial class Location1Template2 : Form
     {
-        public Location12()
+        public Location1Template2()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace FormsAdventure2
 
         private void Location1_Load(object sender, EventArgs e)
         {
-            \
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -43,11 +43,6 @@ namespace FormsAdventure2
         }
 
         private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

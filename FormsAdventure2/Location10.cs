@@ -49,6 +49,11 @@ namespace FormsAdventure2
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 

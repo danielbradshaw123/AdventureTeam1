@@ -19,9 +19,6 @@ namespace FormsAdventure2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form title = new frm_title();
-            title.ShowDialog();
-            GameController.Start_game(this);
         }
 
         private void lbl_luck_Click(object sender, EventArgs e)
@@ -51,7 +48,9 @@ namespace FormsAdventure2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form Location5 = new Location5();
+            this.Close();
+            Location5.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
