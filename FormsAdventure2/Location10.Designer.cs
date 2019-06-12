@@ -58,7 +58,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 20);
+            this.label1.Size = new System.Drawing.Size(122, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Gym - Tenth Slide";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -90,14 +90,14 @@
             this.checkedListBox1.Location = new System.Drawing.Point(1217, 174);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(237, 130);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 123);
             this.checkedListBox1.TabIndex = 7;
             // 
             // Location10
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1667, 1050);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);

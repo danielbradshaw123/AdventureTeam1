@@ -48,7 +48,7 @@
             this.checkedListBox1.Location = new System.Drawing.Point(1216, 178);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(237, 109);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 94);
             this.checkedListBox1.TabIndex = 13;
             // 
             // button3
@@ -87,7 +87,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 20);
+            this.label1.Size = new System.Drawing.Size(103, 17);
             this.label1.TabIndex = 14;
             this.label1.Text = "Staff Room -  4";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -96,7 +96,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(1667, 1050);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button3);

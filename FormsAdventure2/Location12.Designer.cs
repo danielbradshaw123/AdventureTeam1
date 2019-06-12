@@ -113,7 +113,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1482, 860);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
