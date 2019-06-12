@@ -48,7 +48,7 @@
             this.checkedListBox1.Location = new System.Drawing.Point(1162, 161);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(237, 130);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 123);
             this.checkedListBox1.TabIndex = 13;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -88,7 +88,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 40);
+            this.label1.Size = new System.Drawing.Size(226, 34);
             this.label1.TabIndex = 8;
             this.label1.Text = "Detention Room - Second Slide\r\nMr Branton Guaranteed Response";
             this.label1.Click += new System.EventHandler(this.label1_Click);
