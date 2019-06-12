@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormsAdventure2
 {
-    public partial class Location12 : Form
+    public partial class Location16 : Form
     {
-        public Location12()
+        public Location16()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace FormsAdventure2
 
         private void Location1_Load(object sender, EventArgs e)
         {
-            \
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -47,7 +47,7 @@ namespace FormsAdventure2
 
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
 
         }

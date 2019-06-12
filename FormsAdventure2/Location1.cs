@@ -24,6 +24,8 @@ namespace FormsAdventure2
 
         private void Location1_Load(object sender, EventArgs e)
         {
+            Form title = new frm_title();
+            title.ShowDialog();
 
         }
 

@@ -47,23 +47,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Character.cs" />
+    <Compile Include="Location 13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location 13.Designer.cs">
+      <DependentUpon>Location 13.cs</DependentUpon>
+    </Compile>
     <Compile Include="Location10.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Location10.Designer.cs">
       <DependentUpon>Location10.cs</DependentUpon>
     </Compile>
-    <Compile Include="Location11.cs">
+    <Compile Include=".cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Location11.Designer.cs">
-      <DependentUpon>Location11.cs</DependentUpon>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Location12.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Location12.Designer.cs">
       <DependentUpon>Location12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location 14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location 14.Designer.cs">
+      <DependentUpon>Location 14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location 15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location 15.Designer.cs">
+      <DependentUpon>Location 15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Location16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Location16.Designer.cs">
+      <DependentUpon>Location16.cs</DependentUpon>
     </Compile>
     <Compile Include="Location9.cs">
       <SubType>Form</SubType>
@@ -127,16 +152,46 @@
     <Compile Include="Location2.Designer.cs">
       <DependentUpon>Location2.cs</DependentUpon>
     </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.Designer.cs">
+      <DependentUpon>Slide3 Scene3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.Designer.cs">
+      <DependentUpon>Slide2 Scene3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.Designer.cs">
+      <DependentUpon>Slide1 Scene3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Location 13.resx">
+      <DependentUpon>Location 13.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Location10.resx">
       <DependentUpon>Location10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Location11.resx">
-      <DependentUpon>Location11.cs</DependentUpon>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location12.resx">
       <DependentUpon>Location12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location 14.resx">
+      <DependentUpon>Location 14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location 15.resx">
+      <DependentUpon>Location 15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Location16.resx">
+      <DependentUpon>Location16.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location9.resx">
       <DependentUpon>Location9.cs</DependentUpon>
@@ -167,6 +222,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Location2.resx">
       <DependentUpon>Location2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide3 Scene3.resx">
+      <DependentUpon>Slide3 Scene3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide2 Scene3.resx">
+      <DependentUpon>Slide2 Scene3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="locations\Scene 3 - IT room - Will%27s Introduction\Slide1 Scene3.resx">
+      <DependentUpon>Slide1 Scene3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -201,7 +265,7 @@
     <None Include="Resources\title_anim.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="locations\" />
+    <Folder Include="locations\Scene 2 - Gym - Zack%27s Introduction\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\meme.jpg" />
