@@ -53,7 +53,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(788, 476);
+            this.button1.Location = new System.Drawing.Point(718, 426);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(229, 68);
@@ -100,7 +100,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = global::FormsAdventure2.Properties.Resources.mr_branton;
             this.pictureBox4.ErrorImage = global::FormsAdventure2.Properties.Resources.alec____png;
-            this.pictureBox4.Location = new System.Drawing.Point(928, 244);
+            this.pictureBox4.Location = new System.Drawing.Point(632, 411);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(80, 105);
             this.pictureBox4.TabIndex = 7;
@@ -112,7 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::FormsAdventure2.Properties.Resources.meme;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1044, 555);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
