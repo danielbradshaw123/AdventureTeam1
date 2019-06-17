@@ -72,6 +72,7 @@
             this.Alec.Size = new System.Drawing.Size(191, 204);
             this.Alec.TabIndex = 3;
             this.Alec.TabStop = false;
+            this.Alec.Click += new System.EventHandler(this.Alec_Click);
             // 
             // pictureBox1
             // 
