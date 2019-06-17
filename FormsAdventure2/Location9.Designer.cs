@@ -56,7 +56,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(189, 17);
+            this.label1.Size = new System.Drawing.Size(213, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Detention Room - ninth Slide";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -73,6 +73,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "Next";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // checkedListBox1
             // 
@@ -87,7 +88,7 @@
             this.checkedListBox1.Location = new System.Drawing.Point(1217, 174);
             this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(237, 123);
+            this.checkedListBox1.Size = new System.Drawing.Size(237, 109);
             this.checkedListBox1.TabIndex = 7;
             // 
             // Location9
