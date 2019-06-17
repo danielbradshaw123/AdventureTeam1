@@ -68,7 +68,7 @@
             this.button3.BackColor = System.Drawing.Color.Navy;
             this.button3.Font = new System.Drawing.Font("Malgun Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(1, 875);
+            this.button3.Location = new System.Drawing.Point(-8, 438);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(1667, 186);
