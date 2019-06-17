@@ -28,5 +28,10 @@ namespace FormsAdventure2
         {
 
         }
+
+        private void Alec_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

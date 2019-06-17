@@ -78,18 +78,6 @@
     <Compile Include="Location 14.Designer.cs">
       <DependentUpon>Location 14.cs</DependentUpon>
     </Compile>
-    <Compile Include="Location 15.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Location 15.Designer.cs">
-      <DependentUpon>Location 15.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Location16.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Location16.Designer.cs">
-      <DependentUpon>Location16.cs</DependentUpon>
-    </Compile>
     <Compile Include="Location9.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,12 +174,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Location 14.resx">
       <DependentUpon>Location 14.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Location 15.resx">
-      <DependentUpon>Location 15.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Location16.resx">
-      <DependentUpon>Location16.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Location9.resx">
       <DependentUpon>Location9.cs</DependentUpon>
